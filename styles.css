@@ -1,0 +1,61 @@
+/*//abour me en medio arriba y su texto abajo a la izquieda*/
+/*//fun fact se queda ahi y su texto en la esquina inferior derecha*/
+/*//contacto en medio arriba, y su contenido en medio abajo*/
+/*SELECTOR DE ETIQUETA: Selecciona todas las etiquetas*/
+img {
+    width: 200px;
+    height: auto;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+#intro {
+    width:100vw;
+    height: 25vh;
+    background-color: peru;
+    position: relative;
+}
+#about {
+    width:100vw;
+    height: 25vh;
+    background-color: papayawhip;
+    position: relative;
+}
+.about-title {
+    position: absolute;
+    left: 50%
+}
+.about-content{
+    position: absolute;
+    left:0%;
+    bottom:0%;
+}
+#fun {
+    width:100vw;
+    height: 25vh;
+    background-color: yellow;
+    position: relative;
+}
+.fun-content {
+    position: absolute;
+    bottom:0%;
+    right:0%;
+}
+#contacto {
+    width:100vw;
+    height: 25vh;
+    background-color: orange;
+    position: relative;
+}
+.contacto-title {
+    position: absolute;
+    left: 50%
+}
+.contacto-content{
+    position: absolute;
+    bottom:0%;
+    left:50%;
+
+}
